@@ -1,3 +1,4 @@
+# Conditionals Exercises
 sara_has_helmet = False
 rei_has_rope = False
 
@@ -35,9 +36,21 @@ rei_has_rope = False
 #     print("Sorry, not today")
 
 # Q5
-username = input("enter your username?")
-password = input ("enter your password")
-if username == "lucyg" and password == "quartzgleam?1":
-    print("Logged in successfully")
-else:
-    print("Access denied")
+# username = input("enter your username?")
+# password = input ("enter your password")
+# if username == "lucyg" and password == "quartzgleam?1":
+#     print("Logged in successfully")
+# else:
+#     print("Access denied")
+
+# Lists Exercises
+#Q1
+foods = ["orange","apple","banana","strawberry","grape","blueberry",["carrot", "cauliflower", "pumpkin"],"passionfruit","mango","kiwifruit"]
+# print(foods.pop())
+# print(foods[0:3])
+print(foods[7:9+1])
+
+#Q2
+Song_lyrics = [["Monica", "in my life"],["Erica", "by my side"],["Rita's", "all I need"],["Tina's", "what I see"],["Sandra", "in the sun"],["Mary", "having fun"],["Jessica", "here I am"]]
+
+# print(foods"a little bit of [0]")
