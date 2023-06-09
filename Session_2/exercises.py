@@ -44,13 +44,27 @@ rei_has_rope = False
 #     print("Access denied")
 
 # Lists Exercises
-#Q1
+# Q1
 foods = ["orange","apple","banana","strawberry","grape","blueberry",["carrot", "cauliflower", "pumpkin"],"passionfruit","mango","kiwifruit"]
 # print(foods.pop())
 # print(foods[0:3])
-print(foods[7:9+1])
+# print(foods[7:9+1])
 
-#Q2
-Song_lyrics = [["Monica", "in my life"],["Erica", "by my side"],["Rita's", "all I need"],["Tina's", "what I see"],["Sandra", "in the sun"],["Mary", "having fun"],["Jessica", "here I am"]]
+# Q2
+variable_lyrics = [["Monica", "in my life"],["Erica", "by my side"],["Rita's", "all I need"],["Tina's", "what I see"],["Sandra", "in the sun"],["Mary", "having fun"],["Jessica", "here I am"]]
+opening_lyrics = "A little bit of "
+lyrics = opening_lyrics + variable_lyrics[0][0] + " " + variable_lyrics[0][1]
+# print(lyrics)
 
-# print(foods"a little bit of [0]")
+# Q3
+name_list = []
+
+name1 = input("Enter the first name: ")
+name2 = input("Enter the second name: ")
+name3 = input("Enter the third name: ")
+
+name_list.append(name1)
+name_list.append(name2)
+name_list.append(name3)
+
+# print("Name list:", name_list)
