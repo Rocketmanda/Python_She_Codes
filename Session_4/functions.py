@@ -6,19 +6,22 @@
 
 name = input("What is your name?")
 age = input("How old are you?")
-if age >=18:
-    print("Welcome")
-else:
-    print("You can not enter")
+# if age >=18:
+#     print("Welcome")
+# else:
+#     print("You can not enter")
 
 #Task Separation
 def ask user_name():
-    print("Now function is entered")
+    # print("Now function is entered")
     name = input("What is your name?")
+    return name
+    print("hello")
 
-print("Hello")
-ask_user_name()
-print("Hi")
+# print("Hello")
+answer = ask_user_name()
+print("answer")
+# print("Hi")
     
 
 # def ask user_age():
