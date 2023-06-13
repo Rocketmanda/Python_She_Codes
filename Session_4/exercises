@@ -1,0 +1,52 @@
+# prompt = "Could I please have an integer"
+# user_input = def get_int():    
+#     return the_int
+#     print(f"So your integer is {user_input}? Thanks!")
+
+# Loops Exercises
+#Q2 
+# print("the first number is 0")
+# large_number = int(input("Enter a number: "))
+# while (large_number > 0):
+#     if(large_number % 2 !=0):
+#         print(large_number)
+#     large_number = large_number - 1
+
+# #OR
+# number = 0
+# integer_number=int(input("Enter a number"))
+#     if number%2==1:
+#         print(number)
+#     number = number+1
+
+# price = 10 # This is an integer (number)
+# price = 20.4 # This is a float (decimal point number)
+# name = 'Amanda' # This is a 'string' - text
+# is_published = False # This is a Boolean value. Most be capital F or T for True
+# print(price)
+
+# full_name = 'John Smith'
+# age = 20
+# is_new = True
+
+# name = input('What is your name? ')
+# colour = input('What is your favourite colour? ')
+# print(name + ' likes ' + colour)
+
+# birth_year = input('Birth year: ')
+# age = 2023 - int(birth_year)
+# print(age)
+
+# weight = input('how much do you weigh in lbs? ')
+# weight_kg = int(weight) * 0.45
+# print(weight_kg)
+
+# first_name = 'John'
+# last_name = 'Smith'
+# msg = f'{first_name} {last_name} is a coder'
+# print(msg)
+
+first_number = 10.1
+second_number = 20
+calculation = first_number + float(second_number)
+print(calculation)
