@@ -1,41 +1,50 @@
-# # Function - an activity that is natural tor or the purpose of a person or thing
-# # input(), len(), int(), print() 
-# #Every function has brackets syntax
-
-# #Function definition
+# Function - an activity that is natural to or the purpose of a person or thing.
+# Functions we've already seen
+# input(), len(), int(), print() 
 
 # name = input("What is your name?")
 # age = input("How old are you?")
-# # if age >=18:
-# #     print("Welcome")
-# # else:
-# #     print("You can not enter")
+# if age >= 18:
+#     print("Welcome")
+# else:
+#     print("You can not enter.")
 
-# #Task Separation
-# def ask user_name():
-#     # print("Now function is entered")
-#     name = input("What is your name?")
-#     return name
-#     print("hello")
+# Task Seperation
+def ask_user_name():
+    # print("Now function is entered")
+    name = input("What is your name?")
+    print(name)
+    return name 
+    print("Hello") # doesn't get executed
 
-# # print("Hello")
-# answer = ask_user_name()
-# print("answer")
-# # print("Hi")
-    
+# Function definition
+# Calling a function
 
-# # def ask user_age():
-# #     name = input("How old are you?")
-# #     if age >= 18:
-# #         print("Welcome")
-# #     else:
-# #         print("You can not enter")
+# print("Hello")
+# answer = ask_user_name() #user_input = input("tell me your name")
+# print(answer)
+# print("Hi")
+
+
+# def ask_user_age():
+#     age = input("How old are you?")
+#     if age >= 18:
+#         print("Welcome")
+#     else:
+#         print("You can not enter.")
 
 # Parameters
-def add(number1, number2):
-    result = number1 + number2
-    return(result)
+total = 0 # Global variable
+def add(number1, number2): # number1 = 2 , number2 = 3
+    #print(total)
+    #result = number1 + number2 # result is a local variable
+    return (number1 + number2, 5, "This is the calculation")
 
-answer = add(2,3)
+#print()
+#print(total)
+print(add(2,3))
+answer = add(2,3) #
 print(answer)
-print(result) # Local Variable
+#name = input("What's your name")
+#print(answer)
+#print(result) # Local variable 
